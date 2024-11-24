@@ -77,12 +77,13 @@ main {
     align-items: center;
     margin-right: 70px;  
     padding-left: 25px; 
+    border-radius: 50%;
   }
   
   .circle img {
     width: 100%; /* Ensures the image fills the circle */
     height: 100%;
-    overflow: visible;
+    object-fit: contain;
   }  
   
   .content {
