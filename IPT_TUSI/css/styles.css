@@ -76,7 +76,8 @@ main {
     justify-content: center;
     align-items: center;
     margin-right: 70px;  
-    padding-left: 25px; 
+    padding-left: 25px;
+    overflow: hidden;
     border-radius: 50%;
   }
   
