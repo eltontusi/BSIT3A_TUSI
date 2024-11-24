@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prototypes</title>
+  <link rel="icon" href="../pictures/icon.png" type="image/png">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="../pictures/logo.png" alt="Logo">
+    </div>
+    <nav>
+        <a href="../html/index.html" class="nav-link">Home</a>
+        <a href="../html/projects.html" class="nav-link active">Projects</a>
+        <a href="../html/about.html" class="nav-link">Profile</a>
+    </nav>
+  </header>
+  <div style="display: flex; justify-content: center; align-items: center; position: relative; padding: 20px;">
+    <img src="../pictures/prototypes.png" alt="Prototypes" style="height: 75px; margin: 0;">
+    <button onclick="window.location.href='../html/projects.html';" 
+            style="position: absolute; right: 40px; background-color: #df5696; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 10px;">
+      Back
+    </button>
+  </div>
+  <div class="carousel-section">
+        <h4 class="carousel-title">Aromatica</h4>
+        <div class="carousel-container" id="carousel-aromatica">
+            <div class="carousel">
+                <img src="../pictures/aromatica1.png" alt="Image 1" class="active">
+                <img src="../pictures/aromatica2.png" alt="Image 2">
+                <img src="../pictures/aromatica3.png" alt="Image 3">
+                <img src="../pictures/aromatica4.png" alt="Image 4">
+            </div>
+            <button class="carousel-prev carousel-button" data-carousel="carousel-aromatica">&#10094;</button>
+            <button class="carousel-next carousel-button" data-carousel="carousel-aromatica">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="carousel-section">
+        <h4 class="carousel-title">Blood Bridge</h4>
+        <div class="carousel-container" id="carousel-bloodbridge">
+            <div class="carousel">
+                <img src="../pictures/bloodbridge1.png" alt="Image 1" class="active">
+                <img src="../pictures/bloodbridge2.png" alt="Image 2">
+                <img src="../pictures/bloodbridge3.png" alt="Image 3">
+                <img src="../pictures/bloodbridge4.png" alt="Image 4">
+            </div>
+            <button class="carousel-prev carousel-button" data-carousel="carousel-bloodbridge">&#10094;</button>
+            <button class="carousel-next carousel-button" data-carousel="carousel-bloodbridge">&#10095;</button>
+        </div>
+    </div>
+
+    <div style="padding: 40px;">
+        <p></p>
+    </div>
+    
+  <script src="../javascript/main.js"></script>
+</body>
+</html>
